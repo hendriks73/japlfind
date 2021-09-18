@@ -1,0 +1,1 @@
+packageSearchIndex = [{"m":"tagtraum.japlfind","l":"com.tagtraum.macos.finder"}]
