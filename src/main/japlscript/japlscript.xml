@@ -1,0 +1,25 @@
+<project default="japlscript">
+    <target name="japlscript">
+        <mkdir dir="${project.build.directory}/generated-sources/main/java"/>
+
+        <taskdef name="japlscript"
+                 classname="com.tagtraum.japlscript.generation.GeneratorAntTask"
+                 classpathref="maven.compile.classpath"/>
+
+        <japlscript application="Finder"
+                    module="tagtraum.japlfind"
+                    sdef="${basedir}/src/main/japlscript/Finder.sdef"
+                    out="${project.build.directory}/generated-sources/main/java"
+                    packagePrefix="com.tagtraum.macos">
+        </japlscript>
+
+        <!-- manually fix some javadoc issue -->
+        <replace file="${project.build.directory}/generated-sources/main/java/com/tagtraum/macos/finder/Application.java"
+                 token="as in Go > Computer"
+                 value="as in Go &amp;gt; Computer"/>
+        <replace file="${project.build.directory}/generated-sources/main/java/com/tagtraum/macos/finder/ComputerObject.java"
+                 token="as in Go > Computer"
+                 value="as in Go &amp;gt; Computer"/>
+
+    </target>
+</project>
