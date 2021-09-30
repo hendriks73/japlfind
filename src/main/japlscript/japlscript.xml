@@ -13,13 +13,5 @@
                     packagePrefix="com.tagtraum.macos">
         </japlscript>
 
-        <!-- manually fix some javadoc issue -->
-        <replace file="${project.build.directory}/generated-sources/main/java/com/tagtraum/macos/finder/Application.java"
-                 token="as in Go > Computer"
-                 value="as in Go &amp;gt; Computer"/>
-        <replace file="${project.build.directory}/generated-sources/main/java/com/tagtraum/macos/finder/ComputerObject.java"
-                 token="as in Go > Computer"
-                 value="as in Go &amp;gt; Computer"/>
-
     </target>
 </project>
