@@ -5,7 +5,7 @@
     <artifactId>japlfind</artifactId>
     <packaging>jar</packaging>
     <name>Japlfind</name>
-    <version>0.9.3-SNAPSHOT</version>
+    <version>0.9.4-SNAPSHOT</version>
     <description>Java API for the Apple Finder app (macOS)</description>
     <url>https://github.com/hendriks73/japlfind</url>
     <inceptionYear>2021</inceptionYear>
