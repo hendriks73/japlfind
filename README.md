@@ -1,12 +1,12 @@
 [![LGPL 2.1](https://img.shields.io/badge/License-LGPL_2.1-blue.svg)](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.tagtraum/japlfind/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.tagtraum/japlfind)
-[![Build and Test](https://github.com/hendriks73/japlfind/workflows/Build%20and%20Test/badge.svg)](https://github.com/hendriks73/japlfind/actions)
+[![Build and Test](https://github.com/japlscript/japlfind/workflows/Build%20and%20Test/badge.svg)](https://github.com/japlscript/japlfind/actions)
 
 
 # Japlfind
 
 *Japlfind* is a Java API for the Apple Finder app (macOS) based on
-[JaplScript](https://github.com/hendriks73/japlscript).
+[JaplScript](https://github.com/japlscript/japlscript).
 
 
 ## Installation
@@ -47,7 +47,7 @@ public class StartupDisk {
 
 ## API
 
-You can find the complete [API here](https://hendriks73.github.io/japlfind/com/tagtraum/macos/finder/package-summary.html). 
+You can find the complete [API here](https://japlscript.github.io/japlfind/com/tagtraum/macos/finder/package-summary.html). 
 
 
 ## AppleScript Sandbox
